@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/builds.js"></script>
+    <title>Builds</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        #buildList{
+            float:left;
+            display: inline-block;
+            width: 25%;
+        }
+        #partsList{
+            float: left;
+            display: inline-block;
+            width: 40%;
+        }
+
+        #getParts{
+            float: bottom;
+            position: absolute;
+            align-self: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="topnav">
+    <a href="http://localhost:8081/Client/Home.html">Home</a>
+    <a href="http://localhost:8081/Client/Part.html">Parts</a>
+    <a class = "active" href="http://localhost:8081/Client/Build.html">Builds</a>
+    <a href="http://localhost:8081/Client/Index.html">Login / Sign Up</a>
+    <a href="http://localhost:8081/Client/Basket.html">Basket</a>
+</div>
+<h1>Welcome!</h1>
+
+<div>
+    <div>
+        <div id="buildList">
+            Builds
+        </div>
+        <div>
+            <div id="partsList">
+                Parts
+            </div>
+        </div>
+
+    </div>
+    <button onclick='getBuildsList();' id="getParts">Run PartsList </button>
+</div>
+
+
+</body>
+</html>

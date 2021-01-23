@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PeaSees</title>
+    <script src="js/Users.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>CSS Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <h1>PeaSees</h1>
+
+<div class="topnav">
+    <a href="http://localhost:8081/Client/Home.html">Home</a>
+    <a href="http://localhost:8081/Client/Part.html">Parts</a>
+    <a href="http://localhost:8081/Client/Build.html">Builds</a>
+    <a href="http://localhost:8081/Client/Basket.html">Basket</a>
+    <a class = "active" href="http://localhost:8081/Client/Index.html">Login / Sign Up</a>
+    <a href="http://localhost:8081/Client/Basket.html">Basket</a>
+</div>
+
+<div id="SignUp">
+
+    <form id="InputUserDetails">
+        <b>Sign Up </b>
+        <br>
+     Username: <input type="UserName" name="UserName" >
+        <br>
+        Password: <input type="password" name="Password" >
+    </form>
+    <button onclick='addUser();'>Sign Up</button>
+</div>
+<div id="Login">
+    <b>Login </b>
+    <br>
+    <form id="LoginForm">
+        Username: <input type="text" name="UserName" id="UserName">
+        <br>
+        Password: <input type="Password" name="Password" id="Password">
+    </form>
+    <button class="button" onclick='UsersLogin();'>Login</button>  <!--UsersLogin()in users.js-->
+</div>
+</body>
+</html>

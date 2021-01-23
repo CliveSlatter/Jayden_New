@@ -1,0 +1,68 @@
+#Title {
+    background-color: rgba(255, 236, 78, 0);
+    font-family:"Raleway ExtraBold";
+    color: #ffffff;
+    font-size: 150%;
+    margin: 0;
+    text-align: Left;
+
+}
+#SignUp {
+    border-style: solid;
+    border-color: #333333;
+    float: left;
+    width: 30%;
+    align-content: center;
+    margin-left: 15%;
+    background-color: rgba(51, 51, 51, 0.56);
+    text-align: left;
+    font-size: 150%;
+
+}
+#Login {
+    border-style: solid;
+    border-color: #333333;
+    float: right;
+    width: 30%;
+    align-content: center;
+    margin-right: 15%;
+    background-color: rgba(51, 51, 51, 0.56);
+    text-align: left;
+    font-size: 150%;
+}
+#Header {
+    background-color: #333333;
+    font-family:"Raleway ExtraBold";
+    color: black;
+    font-size: 150%;
+    margin: 0;
+    text-align: Left;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    background-color: #333333 ;
+    overflow: hidden;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+body {
+    background-color: rgba(51, 51, 51, 0.56);
+    font-family: "Raleway";
+    color: black;
+    font-size: 100%;
+    margin: 50px;
+}

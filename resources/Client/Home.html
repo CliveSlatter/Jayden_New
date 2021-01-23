@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/Users.js"></script>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div class="topnav">
+    <a class = "active" href="http://localhost:8081/Client/Home.html">Home</a>
+    <a href="http://localhost:8081/Client/Part.html">Parts</a>
+    <a href="http://localhost:8081/Client/Build.html">Builds</a>
+    <a href="http://localhost:8081/Client/Index.html">Login / Sign Up</a>
+    <a href="http://localhost:8081/Client/Basket.html">Basket</a>
+</div>
+<h1>Welcome!</h1>
+<br>
+<button onclick='getUsersList();'>Run getUsersList </button>
+<table id="UsersTable"></table>
+<br>
+<form id="userDetails">
+    User id: <input type="text" id="UserID">
+</form>
+<button onclick='getUser();'>Run getUser</button>
+<br>
+<div id="DisplayOneUser"></div>
+<br>
+</body>
+</html>
