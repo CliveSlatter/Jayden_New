@@ -50,6 +50,7 @@ function addToBasket(id){
             alert(JSON.stringify(response));    // if it does, convert JSON object to string and alert (pop up window)
         } else {
             alert(JSON.stringify(response));
+            document.getElementById("basket").innerText = "Basket ("+response.Count+")";
         }
     });
 }
